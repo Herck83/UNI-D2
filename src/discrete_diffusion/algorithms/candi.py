@@ -54,9 +54,7 @@ class CANDI(Diffusion):
         nll = log_p_theta * dalpha_t / (1 - alpha_t)
         return nll
     
-    def nll(self, x0, output_tokens, current_accumulation_step=None, train_mode=False):
-        del output_tokens  # Unused
-
+    def nll(self, x0, current_accumulation_step=None, train_mode=False):
         t = self._sample_t(x0.shape[0], current_accumulation_step)
         alpha_t = self.noise.alpha_t(t)
         alpha_t = alpha_t.unsqueeze(-1)
