@@ -2,6 +2,10 @@
 
 [![Documentation](https://img.shields.io/badge/docs-online-blue)](https://nkalyanv99.github.io/UNI-D2/)
 
+<p align="center">
+  <img src="docs/assets/Logo_Uni_D2.jpeg" width="700">
+</p>
+
 Moving beyond the constraints of autoregressive modeling, UNI-D² brings the benefits of iterative refinement—data efficiency, bidirectional context, and parallel decoding—to the text domain. This library serves as the missing foundation for this rapidly growing space, featuring an easily extendible architecture that supports multiple modular training methods. Our unified pipeline facilitates rapid experimentation, enables comparable evaluation, and standardizes benchmarks across the field.
 
 ## Highlights
@@ -53,7 +57,7 @@ The library caches datasets and artifacts in `~/.cache/discrete_diffusion` by de
 ## How to run
 
 ### Training experiments
-Run the Hydra-powered CLI exported at `src/discrete_diffusion/__main__.py` with dataset/model/algorithm overrides. A minimal example inspired by the scripts in `scripts/train/`:
+Run the Hydra-powered CLI exported at `src/discrete_diffusion/__main__.py` with dataset/model/algorithm overrides. A minimal example:
 ```bash
 PYTHONPATH=src python -u -m discrete_diffusion \
   data=openwebtext-split \
@@ -63,23 +67,21 @@ PYTHONPATH=src python -u -m discrete_diffusion \
   trainer.devices=8 \
   hydra.run.dir=./outputs/owt/mdlm
 ```
-The `scripts/train/` directory contains dataset-specific recipes (e.g., `owt/`, `lm1b/`, `text8/`). Override any Hydra config key by appending `key=value` pairs on the command line.
+The `examples/` directory contains dataset-specific recipes (e.g., `bd3lm/owt.sh`, `udlm/text8.sh`). Override any Hydra config key by appending `key=value` pairs on the command line.
 
 ### Generating samples
-Once you have a checkpoint, the helper script `scripts/generate_samples.sh` wraps the sampler APIs:
+Once you have a checkpoint, use the evaluation script:
 ```bash
-./scripts/generate_samples.sh \
-  outputs/owt/bd3lm_block16_debug/checkpoints/last.ckpt \
-  --sampler bd3lm \
-  --num-samples 16 \
-  --num-steps 2000
+PYTHONPATH=src python -m discrete_diffusion.evaluations.generate_samples \
+  checkpoint_path=outputs/owt/bd3lm_block16_debug/checkpoints/last.ckpt \
+  num_samples=16 \
+  num_steps=2000
 ```
-See `scripts/README_SAMPLING.md` for sampler options, CLI arguments, and example workflows.
+
 
 ## Repository Structure
 - `configs/`: Hydra configuration tree for datasets, models, and learners.
 - `examples/`: Scripts and notebooks that reproduce experiments and visualizations.
-- `scripts/`: Training installers, sampling helpers, and verification checks (see `scripts/README_SAMPLING.md`).
 - `src/discrete_diffusion`: Entry points, Hydra CLI, and the discrete diffusion training API.
 - `outputs/`: Default Hydra root for logged checkpoints and metrics.
 - `docs/`: Supporting documentation for research artifacts.
