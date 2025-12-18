@@ -6,7 +6,7 @@ This repository centralizes tooling, datasets, experiments, and evaluation pipel
 
 ## Highlights
 
-*   **Unified Entry Point:** Hydra + Lightning workflow for experimenting with MDLM, UDLM, BD3LM, FlexMDM, GIDD, SEDD, and PartitionMDLM.
+*   **Unified Entry Point:** Hydra + Lightning workflow for experimenting with MDLM, UDLM, BD3LM, FlexMDM, GIDD, SEDD, PartitionMDLM, and CANDI.
 *   **Comprehensive Sampling:** Helpers for absorbing, autoregressive, block, and flexible sampling strategies.
 *   **Reproducibility:** Scripts to reproduce training recipes for datasets like LM1B, OpenWebText, and Text8.
 
@@ -19,6 +19,7 @@ This repository centralizes tooling, datasets, experiments, and evaluation pipel
 5.  **[GIDD](https://arxiv.org/pdf/2503.04482)** – von Rütte et al. (arXiv 2025)
 6.  **[SEDD](https://arxiv.org/pdf/2310.16834)** – Lou et al. (arXiv 2023)
 7.  **[PartitionMDLM](https://arxiv.org/pdf/2505.18883)** – Deschenaux et al. (arXiv 2025)
+8.  **[CANDI](https://arxiv.org/abs/2510.22510)** – Pynadath et al. (arXiv 2025)
 
 ---
 

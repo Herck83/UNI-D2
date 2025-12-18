@@ -38,6 +38,7 @@ nav:
   - Architecture: architecture.md
   - Contributing: contributing.md
   - Examples:
+      - CANDI: examples/candi.md
       - MDLM: examples/mdlm.md
       - PGM: examples/pgm.md
       - BD3LM: examples/bd3lm.md
@@ -54,6 +55,7 @@ nav:
   - API Reference:
       - Algorithms:
           - Base Trainer: reference/algorithms/base.md
+          - CANDI: reference/algorithms/candi.md
           - MDLM: reference/algorithms/mdlm.md
           - UDLM: reference/algorithms/udlm.md
           - AR: reference/algorithms/ar.md
@@ -64,6 +66,7 @@ nav:
           - SEDD: reference/algorithms/sedd.md
       - Models:
           - DiT: reference/models/dit.md
+          - CANDI DiT: reference/models/dit_candi.md
           - Common Layers: reference/models/common.md
           - Block DiT: reference/models/block_dit.md
           - EMA: reference/models/ema.md
@@ -74,6 +77,7 @@ nav:
           - Base: reference/forward_process/base.md
           - Absorbing: reference/forward_process/absorbing.md
           - Block Absorbing: reference/forward_process/block_absorbing.md
+          - CANDI Hybrid: reference/forward_process/candi_hybrid.md
           - Uniform: reference/forward_process/uniform.md
           - FlexMDM: reference/forward_process/flexmdm.md
           - Utils: reference/forward_process/utils.md
@@ -90,6 +94,7 @@ nav:
           - Absorbing: reference/sampling/absorbing.md
           - AR: reference/sampling/ar.md
           - BD3LM: reference/sampling/bd3lm.md
+          - CANDI: reference/sampling/candi.md
           - FlexMDM: reference/sampling/flexmdm.md
           - GIDD: reference/sampling/gidd.md
           - Partition: reference/sampling/partition.md

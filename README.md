@@ -85,7 +85,6 @@ PYTHONPATH=src python -m discrete_diffusion.evaluations.generate_samples \
 - `src/discrete_diffusion`: Entry points, Hydra CLI, and the discrete diffusion training API.
 - `outputs/`: Default Hydra root for logged checkpoints and metrics.
 - `docs/`: Supporting documentation for research artifacts.
-- `FlexMDM/`, `gidd/`: Reference implementations for specific papers when needed.
 - `pyproject.toml` / `requirements.txt`: Dependency and tooling metadata.
 
 ## Papers Implemented
